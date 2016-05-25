@@ -8,9 +8,16 @@ if(isset($_POST['id'])){
 		$id=$_POST['id'];
          echo $id ;
          echo 'ss';
+<<<<<<< HEAD
 		 echo "abcdef";
 		 echo 'ssssaaqq';
 
+=======
+         echo 'ussr';
+         echo 'acd';
+         echo 'hhh';
+         echo 'jkl';
+>>>>>>> 8b21fa21954c74703a4f39a4d7c9534c3f66ed73
 }
 $q="SELECT `AGE`, `MOB_NO.`, `EMAIL`, `Image`,`ENAME`, `ENO`, `RELATION`, `ALERGIC`, `PRESCRIPTION`, `SEX`, `BG`, `PASSWORD`, `BILL`, `file`, `id`
  FROM `p_info` WHERE `NAME`='$pn' AND `id`='$id'";
