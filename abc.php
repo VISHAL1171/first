@@ -7,7 +7,7 @@ if(isset($_POST['pname'])){
 if(isset($_POST['id'])){
 		$id=$_POST['id'];
          echo $id ;
-		 echo "yess";
+         echo 'ss';
 }
 $q="SELECT `AGE`, `MOB_NO.`, `EMAIL`, `Image`,`ENAME`, `ENO`, `RELATION`, `ALERGIC`, `PRESCRIPTION`, `SEX`, `BG`, `PASSWORD`, `BILL`, `file`, `id`
  FROM `p_info` WHERE `NAME`='$pn' AND `id`='$id'";
