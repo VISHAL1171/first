@@ -25,21 +25,21 @@
       </a>
     </div>
     <div class="col-md-4">
-      <a href="Alumnimeet.jpg" class="thumbnail">
+      <a href="pics.jpg" class="thumbnail">
         <p>Alumnimeet: Alumni meet of student on Samjeevni medical college".</p>
         <img src="Alumnimeet.jpg" alt="Moustiers Sainte Marie" style="width:450px;height:450px">
       </a>
     </div>
     <div class="col-md-4">
-      <a href="equipments.jpg" class="thumbnail">
+      <a href="pics2.jpg" class="thumbnail">
         <p>equipments:high tech hospital in sajeevani.</p>
         <img src="equipments.jpg" alt="Cinque Terre" style="width:450px;height:450px">
       </a>
     </div>
     <div class="col-md-4">
       <a href="care.jpg" class="thumbnail">
-        <p>care:we take personal care of our every patient.</p>
-        <img src="care.jpg" alt="Cinque Terre" style="width:450px;height:450px">
+        <p>care:we take personal care of our every patient.</p><!--du-->
+        <img src="care.jpg" alt="Cinque Terre" style="width:550px;height:450px">
       </a>
     </div>
   </div>
