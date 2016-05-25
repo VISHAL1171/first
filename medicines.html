@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf8">
+<meta name="viewport"content="width=device-width initial-scale=1">
+<link rel="stylesheet" href="
+http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ <title>sanjeevani health care</title>
+ </head>
+ <script>
+ medicines = new Array(8);
+ medicines[0]="abc";
+ medicines[1]="def";
+ medicines[2]="ghi";
+ medicines[3]="jkl";
+ medicines[4]="mno";
+ medicines[5]="pqr";
+ medicines[6]="stu";
+ medicines[7]="vwx";
+ cost = new Array(8);
+ cost[0]=200;
+ cost[1]=250;
+ cost[2]=300;
+ cost[3]=400;
+ cost[4]=500;
+ cost[5]=600;
+ cost[6]=700;
+ cost[7]=800;
+ function search(form){
+ var x= document.forms["f1"]["mname"].value;
+  <!--document.write(x);-->
+    for(i=0;i<8;i++){
+	if(x==medicines[i]){
+		document.write("found<br/>");	  
+	var n=prompt("no.of units u want");
+	var o=cost[i];
+	var p=cost[i]*n;
+	document.write("total amount is:"+p);
+	    }
+    }
+	}
+ </script>
+ <body>
+ <form name="f1" method="post">
+  Patient name: <input type="text" name="pname" maxsize=10 required ><br/>
+  Medicine name:<input type="text" name="mname" maxsize=10/>
+   <input name="Button1" onClick="search(f1)" type="Button" value="search"/><br/>
+do you have any prescription:yes<input type="radio" name="prescription"  value="yes" />                             no <input type="radio" name="prescription"  value="no." /><br/>
+  <input type="file" name="pic" accept="image/*"><input type="submit">  <br/>
+<!--Choose your medicine:<select name="medicine" ><option value=0>abc</option>
+<option value=1>def</option>
+<option value=2>def</option>
+<option value=3>abc</option>
+<option value=5>abc</option>
+<option value=6>abc</option>
+<option value=7>abc</option></select>-->
+Mode of delivery: pickup<input type="radio" name="del"  value="yes"/>
+home delivery<input type="radio" name="del"  value="no"/>
+<input name="Button2" onClick="bill(f1)" type="Button" value="generate bill"/>
+</form>
+</body>
+ </html>
