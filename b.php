@@ -36,7 +36,7 @@ if (mysql_num_rows($result) > 0) {
 
     echo '<a href ="payment.php"> click here to make payment</a>';
 } else {
-    echo "0 results";
+    echo "0 results bbbbbhhh";
 }
 
 ?>
