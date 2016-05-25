@@ -9,6 +9,7 @@ if(isset($_POST['id'])){
          echo $id ;
          echo 'ss';
 		 echo "abcdef";
+		 echo 'ssssaaqq';
 
 }
 $q="SELECT `AGE`, `MOB_NO.`, `EMAIL`, `Image`,`ENAME`, `ENO`, `RELATION`, `ALERGIC`, `PRESCRIPTION`, `SEX`, `BG`, `PASSWORD`, `BILL`, `file`, `id`
