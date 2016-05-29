@@ -11,6 +11,7 @@ if(isset($_POST['id'])){
          echo 'ussr';
          echo 'acd';
          echo 'hhh';
+         echo 'jkl';
 }
 $q="SELECT `AGE`, `MOB_NO.`, `EMAIL`, `Image`,`ENAME`, `ENO`, `RELATION`, `ALERGIC`, `PRESCRIPTION`, `SEX`, `BG`, `PASSWORD`, `BILL`, `file`, `id`
  FROM `p_info` WHERE `NAME`='$pn' AND `id`='$id'";
